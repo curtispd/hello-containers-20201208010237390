@@ -22,7 +22,7 @@ if (process.env.PORT) {
 } else {
   PORT = 80;
 }
-
+//test
 var app = express();
 app.get('/', function (req, res) {
   res.send(message.getWelcomeMessage());
